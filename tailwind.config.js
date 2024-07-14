@@ -14,11 +14,12 @@ export default {
         'light-blue': 'hsl(233, 100%, 69%)',
         'dark-grayish-blue': 'hsl(210, 10%, 33%)',
         'grayish-blue': 'hsl(201, 11%, 66%)',
+        'light-gray': 'hsl(0deg 0% 61.96% / 15%)',
       },
 
       backgroundImage: {
-        'header-mobile': "url('./src/assets/images/bg-header-mobile.png')"
-      }
+        'header-mobile': "url('./src/assets/images/bg-header-mobile.png')",
+      },
     },
   },
   plugins: [],
