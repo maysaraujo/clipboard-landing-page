@@ -14,7 +14,7 @@ body {
   font: 1.125rem;
 }
 
-.container {
+.pageCenter {
   margin: 0 auto;
   max-width: 1400px;
   width: 90%;
