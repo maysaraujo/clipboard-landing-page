@@ -2,8 +2,8 @@ import Logo from '../assets/images/logo.svg';
 
 const Header = () => {
   return (
-    <header className='bg-header-mobile bg-no-repeat bg-right bg-cover h-[25rem] md:hidden'>
-      <div className='container'>
+    <header className='bg-header-mobile bg-no-repeat bg-right bg-cover md:hidden'>
+      <div className='pageCenter'>
         <div className='flex justify-center pt-[9.375rem] pb-16'>
           <img className='' src={Logo} alt='Logo' />
         </div>
