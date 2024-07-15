@@ -8,7 +8,7 @@ const Partners = () => {
   return (
     <section className='bg-white pt-20'>
       <div className='pageCenter'>
-        <div className='flex items-center flex-col gap-12 lg:flex-row lg:justify-center lg:gap-24'>
+        <div className='flex items-center flex-col gap-16 lg:flex-row lg:justify-center lg:gap-24'>
           <img src={Google} alt='Google icon' />
           <img src={IBM} alt='IBM icon' />
           <img src={Microsoft} alt='Microsoft icon' />
