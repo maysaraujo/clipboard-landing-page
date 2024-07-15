@@ -8,12 +8,12 @@ const Partners = () => {
   return (
     <section className='bg-white pt-20'>
       <div className='pageCenter'>
-        <div className='flex items-center flex-col gap-12'>
-          <img width={100} src={Google} alt='Google icon' />
-          <img width={100} src={IBM} alt='IBM icon' />
-          <img width={100} src={Microsoft} alt='Microsoft icon' />
-          <img width={100} src={HP} alt='HP icon' />
-          <img width={100} src={VectorGraphichs} alt='VectorGraphichs icon' />
+        <div className='flex items-center flex-col gap-12 lg:flex-row lg:justify-center lg:gap-24'>
+          <img src={Google} alt='Google icon' />
+          <img src={IBM} alt='IBM icon' />
+          <img src={Microsoft} alt='Microsoft icon' />
+          <img src={HP} alt='HP icon' />
+          <img src={VectorGraphichs} alt='VectorGraphichs icon' />
         </div>
       </div>
     </section>
