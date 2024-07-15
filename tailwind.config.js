@@ -3,7 +3,7 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     screens: {
-      sm: '500',
+      sm: '0px',
       md: '768px',
       lg: '992px',
       xl: '1440px',
@@ -19,6 +19,7 @@ export default {
 
       backgroundImage: {
         'header-mobile': "url('./src/assets/images/bg-header-mobile.png')",
+        'header-desktop': "url('./src/assets/images/bg-header-desktop.png')",
       },
     },
   },
