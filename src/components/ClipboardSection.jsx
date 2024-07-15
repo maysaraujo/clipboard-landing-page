@@ -1,6 +1,8 @@
+import Buttons from './Buttons';
+
 const ClipboardSection = () => {
   return (
-    <section className='bg-white pt-20'>
+    <section className='bg-white py-20'>
       <div className='pageCenter'>
         <h2 className='text-dark-grayish-blue text-center text-3xl font-semibold'>
           Clipboard for iOS and Mac OS
@@ -12,14 +14,7 @@ const ClipboardSection = () => {
           </p>
         </div>
 
-        <div className='flex justify-center items-center flex-col gap-5 pb-20'>
-          <button className='bg-strong-cyan text-white py-2.5 rounded-3xl w-4/5 font-semibold'>
-            Download for iOS
-          </button>
-          <button className='bg-light-blue text-white py-2.5 rounded-3xl w-4/5 font-semibold'>
-            Download for Mac
-          </button>
-        </div>
+        <Buttons />
       </div>
     </section>
   );
