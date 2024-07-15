@@ -1,48 +1,39 @@
 import ImageComputer from '../assets/images/image-computer.png';
+import SectionText from './SectionText';
+import TextFirstSection from './TextFirstSection';
 
 const FirstSection = () => {
   return (
     <section className='bg-white pt-20'>
-      <div className='pageCenter'>
-        <h2 className='text-dark-grayish-blue text-center text-3xl font-semibold'>
-          Keep track of your snippets
-        </h2>
-        <div className='flex justify-center'>
-          <p className='text-grayish-blue text-center mt-4 mb-12 max-w-[19.375rem]'>
-            Clipboard instantly stores any item you copy in the cloud, meaning
-            you can access your snippets immediately on all your devices. Our
-            Mac and iOS apps will help you organize everything.
-          </p>
-        </div>
-        <img src={ImageComputer} alt='Image computer' />
+      <SectionText
+        title='Keep track of your snippets'
+        text='Clipboard instantly stores any item you copy in the cloud, meaning you
+          can access your snippets immediately on all your devices. Our Mac and
+          iOS apps will help you organize everything.'
+      />
 
-        <h3 className='text-dark-grayish-blue text-center text-2xl font-semibold mt-8'>
-          Quick Search
-        </h3>
-        <div className='flex justify-center'>
-          <p className='text-grayish-blue text-center mt-4 max-w-[19.375rem]'>
-            Easily search your snippets by content, category, web address,
-            application, and more.
-          </p>
-        </div>
+      <div className='lg:flex lg:gap-32'>
+        <img
+          className='lg:ml-[-2rem]'
+          src={ImageComputer}
+          alt='Image Computer'
+        />
 
-        <h3 className='text-dark-grayish-blue text-center text-2xl font-semibold mt-8'>
-          iCloud Sync
-        </h3>
-        <div className='flex justify-center'>
-          <p className='text-grayish-blue text-center mt-4 max-w-[19.375rem]'>
-            Instantly saves and syncs snippets across all your devices.
-          </p>
-        </div>
-
-        <h3 className='text-dark-grayish-blue text-center text-2xl font-semibold mt-8'>
-          Complete History
-        </h3>
-        <div className='flex justify-center'>
-          <p className='text-grayish-blue text-center mt-4 max-w-[19.375rem]'>
-            Retrieve any snippets from the first moment you started using the
-            app.
-          </p>
+        <div className=''>
+          <TextFirstSection
+            title='Quick Search'
+            text='Easily search your snippets by content, category, web address,
+                application, and more.'
+          />
+          <TextFirstSection
+            title='iCloud Sync'
+            text='Instantly saves and syncs snippets across all your devices.'
+          />
+          <TextFirstSection
+            title='Complete History'
+            text='Retrieve any snippets from the first moment you started using
+                the app.'
+          />
         </div>
       </div>
     </section>
