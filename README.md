@@ -2,7 +2,7 @@
 
 ## :memo: Descrição
 
-Uma Landing Page do site <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a>; tem como objetivo testar as habilidades como desenvolvedor frontend. Criei essa landing page para testar os meus conhecimentos em Tailwind CSS.
+Uma Landing Page do site <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a>; tem como objetivo testar as habilidades como desenvolvedor frontend.
 
 ## :wrench: Tecnologias utilizadas
 
