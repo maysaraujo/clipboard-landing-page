@@ -18,8 +18,8 @@ export default {
       },
 
       backgroundImage: {
-        'header-mobile': "url('./src/assets/images/bg-header-mobile.png')",
-        'header-desktop': "url('./src/assets/images/bg-header-desktop.png')",
+        'header-mobile': "url('/src/assets/images/bg-header-mobile.png')",
+        'header-desktop': "url('/src/assets/images/bg-header-desktop.png')",
       },
     },
   },
